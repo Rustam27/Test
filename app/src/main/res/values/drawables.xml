@@ -1,0 +1,4 @@
+<resources>
+    <item name="ic_menu_schedule" type="drawable">@drawable/ic_explore_black_24dp</item>
+    <item name="ic_menu_about" type="drawable">@drawable/ic_help_black_24dp</item>
+</resources>

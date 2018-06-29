@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp">
+
+    <TextView
+        android:theme="@style/TextViewB"
+        android:id="@+id/tv_departure_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="Адрес отправления:"/>
+
+    <Button
+        android:theme="@style/ButtonB"
+        android:id="@+id/btn_departure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_departure_label"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:backgroundTint="@color/colorAccent"
+        android:gravity="start|center_vertical"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:theme="@style/TextViewB"
+        android:id="@+id/tv_arrival_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_departure"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Адрес прибытия:"/>
+
+    <Button
+        android:theme="@style/ButtonB"
+        android:id="@+id/btn_arrival"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_arrival_label"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:backgroundTint="@color/colorAccent"
+        android:gravity="start|center_vertical"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:theme="@style/TextViewB"
+        android:id="@+id/tv_date_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_arrival"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Дата прибытия:" />
+
+    <Button
+        android:theme="@style/ButtonB"
+        android:id="@+id/btn_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_date_label"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:backgroundTint="@color/colorAccent"
+        android:gravity="start|center_vertical"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+</RelativeLayout>
